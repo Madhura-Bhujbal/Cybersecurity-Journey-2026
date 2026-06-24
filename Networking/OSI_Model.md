@@ -28,9 +28,9 @@ Imp concepts:
    
    Process in which each layer addds its own header(i.e information) before transmitting data.
    - Data
-     TCP Header + Data
-     IP Header + TCP Header + Data
-     MAC Header + IP Header + TCP Header + Data
+   - TCP Header + Data
+   - IP Header + TCP Header + Data
+   - MAC Header + IP Header + TCP Header + Data
 
 
 2) **DECAPSULATION:**
