@@ -21,7 +21,7 @@
 | 4 | Transport |<ul><li>Provides End-to-end communication,<li>Functions:<br> - Segmentation<br> - Flow control<br> - Error checking | TCP(Transmission Control Protocol), UDP(User Datagram Protocol) |
 | 3 | Network |<ul><li>Functions:<br> - Routing packets between network.<br> -Determines the best path to destination.<br> - Logical Addressing <li> Addressing : IP Addressing. <li> Device : Router   | IPv4, IPv6 |
 | 2 | Data Link |<ul> <li> Framing, MAC addressing, error detection.<li> Addressing : MAC Addressing. <li> Device : Switch | Ethernet, PPP, Switch Protocols |
-| 1 | Physical | Transmission of raw bits over physical media<br>  <li> Devices : Hub | Ethernet Cable, Fiber Optics, Wi-Fi Signals |
+| 1 | Physical | <ul> <li>Transmission of raw bits over physical media<br>  <li> Devices : Hub | Ethernet Cable, Fiber Optics, Wi-Fi Signals |
 
 Imp concepts:
 1) **ENCAPSULATION:**
