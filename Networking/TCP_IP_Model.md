@@ -1,9 +1,9 @@
 **TCP/IP (Transmission Control Protocol/Internet Protocol)**
 
-- TCP/IP is protocol suite used for communication between devices.
+- TCP/IP is a protocol suite used for communication between devices.
 - It is a practical model (OSI is a theoretical model).
 - TCP/IP provides rules for
-  - Sending deta
+  - Sending data
   - Receiving data
   - Addressing devices
   - Routing packets.
@@ -18,5 +18,5 @@
 | --------- | -------------- | ------------------------------------------------------------------------------------------------- | -------------------------------- |
 | 4         | Application    | - Provides services to user applications<br> - Data representation<br> - Process-to-process communication <br> - Closest to the user | HTTP, HTTPS, FTP, SMTP, DNS, SSH |
 | 3         | Transport      | - End-to-end communication<br> - Segmentation<br> - Flow Control<br> - Error Checking                | TCP, UDP                         |
-| 2         | Internet       | - Logical addressing<br> - Routing packets between networks                                            | IP                    |
+| 2         | Internet       | - Logical addressing<br> - Routing packets between networks                                            | IP, ICMP, ARP                    |
 | 1         | Network Access | - Physical transmission of data<br> - MAC addressing<br> - Framing (converts packets to frames)                                       | Ethernet, Wi-Fi, PPP             |
