@@ -15,7 +15,7 @@
 
 | Layer No. | Layer Name | Main Functions | Common Protocols |
 |------------|------------|----------------|------------------|
-| 7 | Application |<ul><li>Provides network services to end users and applications.<li>Closest to the user.</ul> | HTTP,(80) HTTPS(443), FTP(20,21), SMTP(25), DNS(53) |
+| 7 | Application |<ul><li>Provides network services to end users and applications.<li>Closest to the user.</ul> | HTTP,(80) HTTPS(443), FTP(20,21), SSH(22), SMTP(25), DNS(53) |
 | 6 | Presentation |<ul><li>It is also called as Translation Layer.<li>Functions:<br> - Encryption <br> - Decryption<br> - Format Conversion<br> - Compression</ul> | SSL/TLS |
 | 5 | Session | Establishes, manages, and terminates sessions | NetBIOS, RPC |
 | 4 | Transport |<ul><li>Provides End-to-end communication,<li>Functions:<br> - Segmentation<br> - Flow control<br> - Error checking | TCP(Transmission Control Protocol), UDP(User Datagram Protocol) |
