@@ -3,8 +3,8 @@
 - An IP Address is a unique logical address assigned to a device in a network.
 - It is used to identify a devices in a network and enable communication between them.
 
-1)IPv4
-2)IPv6
+1) IPv4
+2) IPv6
 
 **Difference Between IPv4 and IPv6**
 
