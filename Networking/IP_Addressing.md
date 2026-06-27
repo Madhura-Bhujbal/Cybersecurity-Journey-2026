@@ -31,3 +31,66 @@ Classes Of IPv4:
 | Class C | 192.0.0.0 – 223.255.255.255 | 255.255.255.0 (/24) | Small Networks |
 | Class D | 224.0.0.0 – 239.255.255.255 | N/A | Multicasting |
 | Class E | 240.0.0.0 – 255.255.255.255 | N/A | Experimental |
+
+---
+
+# Static vs Dynamic IP Address
+
+## What is a Static IP Address?
+
+A Static IP Address is a permanent IP address that does not change unless it is manually modified.
+
+### Features
+- Fixed IP address
+- Manually configured or reserved by ISP
+- Suitable for servers and businesses
+- Supports remote access
+- Higher cost
+
+### Example
+
+Server IP: 192.168.1.100
+
+Even after restarting the device, the IP remains the same.
+
+
+## What is a Dynamic IP Address?
+
+A Dynamic IP Address is automatically assigned by a DHCP server and can change over time.
+
+### Features
+
+- Assigned automatically
+- Changes periodically
+- Cost-effective
+- Used by most home users
+
+### Example
+
+Today:
+192.168.1.10
+
+Tomorrow:
+192.168.1.25
+
+
+**Difference Between Static and Dynamic IP**
+
+| Feature | Static IP | Dynamic IP |
+|----------|-----------|------------|
+| IP Changes | No | Yes |
+| Assignment | Manual | Automatic (DHCP) |
+| Cost | Higher | Lower |
+| Best For | Servers, Hosting | Home Users |
+| Remote Access | Easy | Difficult |
+| Security | Easier to locate | Slightly harder to track |
+
+---
+
+## Interview Answer
+
+**Q. What is the difference between Static and Dynamic IP?**
+
+A Static IP Address remains the same and is manually configured or reserved by the ISP. It is commonly used for servers, websites, and remote access.
+
+A Dynamic IP Address is automatically assigned by a DHCP server and may change over time. It is commonly used by home users because it is easier to manage and more cost-effective.
