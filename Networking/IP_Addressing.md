@@ -49,7 +49,6 @@ A Static IP Address is a permanent IP address that does not change unless it is 
 ### Example
 
 Server IP: 192.168.1.100
-
 Even after restarting the device, the IP remains the same.
 
 
@@ -91,5 +90,4 @@ Tomorrow:
 **Q. What is the difference between Static and Dynamic IP?**
 
 A Static IP Address remains the same and is manually configured or reserved by the ISP. It is commonly used for servers, websites, and remote access.
-
 A Dynamic IP Address is automatically assigned by a DHCP server and may change over time. It is commonly used by home users because it is easier to manage and more cost-effective.
