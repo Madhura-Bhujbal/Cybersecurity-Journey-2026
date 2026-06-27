@@ -35,7 +35,6 @@ Classes Of IPv4:
 ---
 
 # Static vs Dynamic IP Address
-
 ## What is a Static IP Address?
 
 A Static IP Address is a permanent IP address that does not change unless it is manually modified.
