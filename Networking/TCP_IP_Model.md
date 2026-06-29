@@ -20,3 +20,20 @@
 | 3         | Transport      | - End-to-end communication<br> - Segmentation<br> - Flow Control<br> - Error Checking                | TCP, UDP                         |
 | 2         | Internet       | - Logical addressing<br> - Routing packets between networks                                            | IP, ICMP, ARP                    |
 | 1         | Network Access | - Physical transmission of data<br> - MAC addressing<br> - Framing (converts packets to frames)                                       | Ethernet, Wi-Fi, PPP             |
+
+
+
+**Difference between TCP and UDP**
+
+| Feature         | TCP                           | UDP                                       |
+| --------------- | ----------------------------- | ----------------------------------------- |
+| Full Form       | Transmission Control Protocol | User Datagram Protocol                    |
+| Connection      | Connection-oriented           | Connectionless                            |
+| Reliability     | Reliable                      | Unreliable                                |
+| Speed           | Slower                        | Faster                                    |
+| Data Delivery   | Guaranteed                    | Not Guaranteed                            |
+| Error Checking  | Yes (with error recovery)     | Yes (checksum only, no recovery)          |
+| Acknowledgement | Required                      | Not Required                              |
+| Packet Ordering | Maintains packet order        | Does not guarantee packet order           |
+| Examples        | HTTP, HTTPS, FTP, SSH, SMTP   | DNS, DHCP, VoIP, Streaming, Online Gaming |
+
